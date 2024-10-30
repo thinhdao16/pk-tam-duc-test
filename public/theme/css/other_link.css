@@ -1,0 +1,251 @@
+.other_link {
+    position: absolute;
+    display: block;
+    top: 35%;
+    right: 10%;
+    padding: 0px 0;
+    margin: 0;
+    width: auto;
+    z-index: 1;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+  }
+  .other_link.fixed {
+    position: fixed;
+    display: block;
+    top: 30%;
+    right: 0;
+  }
+  .other_link.fixed .list_item {
+    background-color: #2698d6;
+    padding: 0;
+    margin: 5px 0 0;
+  }
+  .other_link.fixed .hotline span, .other_link.fixed .list_item .item .sdes {
+    display: none;
+  }
+  .other_link.fixed .hotline .simg {
+    margin: 0 0 0 2px;
+  }
+
+  .other_link .hotline {
+    position: relative;
+    display: block;
+    padding: 0px 0;
+    margin: 0;
+    width: auto;
+    min-width:200px;
+  }
+  .other_link.fixed .hotline {
+    min-width:unset;
+  }
+  .other_link .hotline .simg {
+    position: relative;
+    display: block;
+    padding: 14px 5px;
+    margin: 0 0 0 -10px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #fff;
+    background-color: #2698d6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .other_link .hotline .simg img {
+    padding: 0px 0;
+    margin: 0;
+  }
+  .other_link .hotline span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 14px 5px 14px 30px;
+    margin: 0;
+    width: calc(100% - 30px);
+    height: 50px;
+    float: right;
+    background-color: #44bbf3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-width: 180px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    z-index: 0;
+  }
+
+  .other_link .list_item {
+    position: relative;
+    padding: 0 10px;
+    margin: 20px 0 0;
+    border: 2px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    max-width: 170px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    float: right;
+  }
+  .other_link .list_item:hover {
+    background-color: #915c83;
+  }
+  .other_link .list_item .item {
+    padding: 5px 0;
+    margin: 0;
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .other_link .list_item .item:last-child {
+    border-bottom: 0;
+    padding: 5px 0 0;
+  }
+  .other_link .list_item .item:hover {
+  }
+  .other_link .list_item .item .simg {
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    text-align: center
+  }
+  .other_link .list_item .item .simg img {
+    margin: 0 auto;
+    padding: 0px;
+    width: auto;
+  }
+  .other_link .list_item .item .sdes {
+    position: relative;
+    width: calc(100% - 50px);
+    height: 50px;
+    line-height: 40px;
+    float: left;
+    margin: 0;
+    padding: 0px;
+  }
+  .other_link .list_item .item .sdes a {
+    color: #0095fd;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  .other_link .list_item .item:hover .sdes a {
+    color: #fff;
+  }
+  @media (max-width: 767px) {
+    .other_link {
+      position: relative;
+      display: block;
+      top: 0;
+      right: 0;
+      padding: 0px 0;
+      margin: 0;
+      width: 100%;
+    }
+    .other_link .hotline {
+      position: absolute;
+      display: table;
+      padding: 0px 0;
+      margin: 0;
+      min-width: auto;
+      width: auto;
+      top: 32px;
+      right: 10%;
+    }
+    .other_link .hotline span {
+      position: relative;
+      top: 0;
+      right: 0;
+      display: block;
+      padding: 5px 5px;
+      margin: 0;
+      width: auto;
+      height: auto;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      min-width: auto;
+    }
+    .other_link .hotline .simg {
+      position: relative;
+      display: block;
+      padding: 5px;
+      margin: 0;
+      width: 32px;
+      height: 30px;
+      float: left;
+      border: 0;
+      background-color: #999;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      z-index: 1;
+    }
+    .other_link .list_item {
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+      background-color: rgba(0,0,0,0.7);
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      display: table;
+      border: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+    }
+    .other_link .list_item .item {
+      padding: 5px;
+      margin: 0;
+      width: 33.33%;
+      display: block;
+      border-bottom: 0;
+      float: left;
+    }
+    .other_link .list_item .item .simg {
+      width: 30px;
+      height: 20px;
+      text-align: right
+    }
+    .other_link .list_item .item .simg img {
+      width: 20px;
+    }
+    .other_link .list_item .item .sdes {
+      position: relative;
+      height: auto;
+      line-height: 20px;
+      padding: 0px;
+      width: calc(100% - 30px);
+    }
+    .other_link .list_item .item .sdes a {
+      font-size: 14px;
+    }
+
+    .other_link.fixed {
+      position: absolute;
+      display: block;
+      top: 20px;
+      right: 10%;
+      padding: 0px 0;
+      margin: 0;
+      width: auto;
+      z-index: 99;
+      -webkit-transition: all 0.25s linear;
+      -moz-transition: all 0.25s linear;
+      transition: all 0.25s linear;
+    }
+
+  }
