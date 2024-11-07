@@ -6512,3 +6512,6 @@ div.moreview_description.rtl {
 	border-bottom: 1px solid #ddd;
 
 }
+#td{
+	display: none !important;
+}
