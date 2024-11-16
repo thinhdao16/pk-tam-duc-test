@@ -405,7 +405,7 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 	padding-bottom: 10px;
 	margin: 25px 0;
 	font-weight: bold;
-	color: #915c83;
+	color: #d39bcb;
 	position: relative;
 	border-bottom: 2px solid #d4d3d3;
 	text-transform: uppercase;
@@ -452,7 +452,7 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 	position: relative;
 	width: 60px;
 	height: 4px;
-	background: #915c83;
+	background: #d39bcb;
 	padding: 0;
 	margin: 10px 0 -2px;
 }
@@ -3186,7 +3186,7 @@ input[type='email'] {
 		background-color : #fff;
 	}
 	nav.navbar-main.navbar {
-		background:#915c83;
+		background:#d39bcb;
 		margin-bottom:0px;
 		-webkit-transition: all 0.2s ease;
 		-ms-transition: all 0.2s ease;
@@ -3680,7 +3680,7 @@ input[type='email'] {
 		padding: 10px 0;
 		font-size: 15px;
 		color: #fff;
-		background: #915c83;
+		background: #d39bcb;
 	}
 	.footer-copyright a {
 		color: #fff;
@@ -4739,7 +4739,7 @@ input[type='email'] {
 		position: relative;
 		padding: 15px;
 		margin-bottom: 0;
-		color: #915c83;
+		color: #d39bcb;
 	}
 	#collection .group-collection .title-block .title-group {
 		margin: 0;
