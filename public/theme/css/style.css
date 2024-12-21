@@ -1,12 +1,19 @@
 /******************************** Css chung ********************************/
 body {
-	font-family: Roboto, sans-serif;
+	font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	background:#fff;
 	max-width: 1600px;
 	margin: auto;
 	font-size: 14px;
+	font-style: normal !important;
+	font-weight: 400;
 }
+div{
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
 
+}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -3676,6 +3683,7 @@ input[type='email'] {
 		margin: 15px 0 10px;
 	}
 	.footer-copyright {
+		display: none;
 		width: 100%;
 		padding: 10px 0;
 		font-size: 15px;
@@ -5930,9 +5938,7 @@ input[type='email'] {
 			text-transform: uppercase;
 		}
 		/* Css Chung */
-		.pd5.col-xs-12 {
-			//padding: 0px 5px;
-		}
+		
 		/* Search filter */
 		.box-search > .box-input {
 			position: inherit;
