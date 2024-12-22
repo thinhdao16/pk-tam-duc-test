@@ -808,10 +808,11 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 	line-height: 30px;
 	background: 0;
 	border: none;
+	display: none;
 }
 .active-home{
 	background: #8e4585;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 }
 .navbar-nav>li>a {
 	padding: 0;
@@ -3173,9 +3174,9 @@ input[type='email'] {
 		min-width: 80px;
 		text-align: center;
 		text-transform: uppercase;
-		padding: 5px 14px;
+		padding: 15px 18px;
 		color: #fff;
-		border-radius: 5px;
+		/* border-radius: 5px; */
 		font-weight: 500;
 	}
 	.navbar-main .navbar-nav > li > a:hover {
@@ -3199,7 +3200,7 @@ input[type='email'] {
 		-ms-transition: all 0.2s ease;
 		-o-transition: all 0.2s ease;
 		transition: all 0.2s ease;
-		height:50px;
+		/* height:50px; */
 		box-shadow: 0 0 13px -2px rgba(0, 0, 0, 0.75);
 	}
 	nav.navbar-main.navbar.affix-mobile {
