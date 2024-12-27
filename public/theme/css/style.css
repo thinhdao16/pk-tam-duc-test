@@ -5978,7 +5978,7 @@ input[type='email'] {
 			height: auto;
 		}
 		main {
-			padding-top: 114px;
+			padding-top: 59px;
 		}
 
 		.product-wrapper:nth-child(2n + 1),
@@ -6478,6 +6478,7 @@ div.moreview_description.rtl {
 }
 /************************************** End Media.css ******************/
 .rawimages{
+	display: none;
 	margin-top: 27px;
 }
 .article-image-index img{
@@ -6520,5 +6521,8 @@ div.moreview_description.rtl {
 
 }
 #td{
+	display: none !important;
+}
+.box-search-mobile{
 	display: none !important;
 }
