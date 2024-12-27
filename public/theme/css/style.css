@@ -187,6 +187,7 @@ img.respon-owlCarousel {
 	right: -140px;
 	margin-top: -90px;
 	z-index: 9999;
+	display: none;
 }
 .support-live-item {
 	background: #dda0dd;
