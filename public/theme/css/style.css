@@ -513,8 +513,9 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 	border: 1px solid #fff;margin-right: 10px;
 }
 .backchuyenkhoa{
-	background: url(../../../vimgsrc/img-bg-say-about.jpg);
+	background: #d39bcb;
 	color: #fff;
+	opacity: 0.5;
 }
 /*start hover chuyên khoa*/
 .no-padding {
@@ -569,7 +570,7 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 .st-inner>div:nth-child(7) .what-we-do-block::after,
 .st-inner>div:nth-child(10) .what-we-do-block::after,
 .st-inner>div:nth-child(13) .what-we-do-block::after {
-	background-color: #1f2f75
+	background-color: #b64950
 }
 
 .st-inner>div:nth-child(2) .what-we-do-block::after,
@@ -577,7 +578,7 @@ h1.title{font-size:16px;color:#444444;text-transform:uppercase;margin-bottom:20p
 .st-inner>div:nth-child(8) .what-we-do-block::after,
 .st-inner>div:nth-child(11) .what-we-do-block::after,
 .st-inner>div:nth-child(14) .what-we-do-block::after {
-	background-color: #4c9db1
+	background-color: #b64950
 }
 
 .st-inner>div:nth-child(3) .what-we-do-block::after,
