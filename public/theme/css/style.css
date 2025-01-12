@@ -3203,7 +3203,7 @@ input[type='email'] {
 		-o-transition: all 0.2s ease;
 		transition: all 0.2s ease;
 		/* height:50px; */
-		box-shadow: 0 0 13px -2px rgba(0, 0, 0, 0.75);
+		/* box-shadow: 0 0 13px -2px rgba(0, 0, 0, 0.75); */
 	}
 	nav.navbar-main.navbar.affix-mobile {
 		position: fixed;
@@ -3211,9 +3211,9 @@ input[type='email'] {
 		left: 0;
 		right: 0;
 		z-index: 999;
-		-webkit-box-shadow: 0 14px 20px -17px rgba(0,0,0,.75);
+		/* -webkit-box-shadow: 0 14px 20px -17px rgba(0,0,0,.75);
 		-moz-box-shadow: 0 14px 20px -17px rgba(0,0,0,.75);
-		box-shadow: 0 14px 20px -17px rgba(0,0,0,.75);
+		box-shadow: 0 14px 20px -17px rgba(0,0,0,.75); */
 	}
 	.navbar-main.navbar {
 		position: relative;
