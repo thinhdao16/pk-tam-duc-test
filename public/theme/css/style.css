@@ -6528,3 +6528,8 @@ div.moreview_description.rtl {
 .box-search-mobile{
 	display: none !important;
 }
+
+.custom-card-vac-xin{
+	border: 1px solid #c6c0c0;
+	border-radius : 8px
+}
