@@ -9046,10 +9046,12 @@ button.close {
 }
 
 /* 24px */
+/* Bo tròn hoàn toàn */
 .rounded-full {
     border-radius: 9999px;
 }
 
+/* Bo tròn tiêu chuẩn */
 .rounded-t {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
@@ -9085,6 +9087,108 @@ button.close {
 .rounded-br {
     border-bottom-right-radius: 0.25rem;
 }
+
+/* Bo tròn kích thước nhỏ hơn (-1) */
+.rounded-t-1 {
+    border-top-left-radius: 0.125rem;
+    border-top-right-radius: 0.125rem;
+}
+
+.rounded-b-1 {
+    border-bottom-left-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+}
+
+.rounded-l-1 {
+    border-top-left-radius: 0.125rem;
+    border-bottom-left-radius: 0.125rem;
+}
+
+.rounded-r-1 {
+    border-top-right-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+}
+
+.rounded-tl-1 {
+    border-top-left-radius: 0.125rem;
+}
+
+.rounded-tr-1 {
+    border-top-right-radius: 0.125rem;
+}
+
+.rounded-bl-1 {
+    border-bottom-left-radius: 0.125rem;
+}
+
+.rounded-br-1 {
+    border-bottom-right-radius: 0.125rem;
+}
+
+/* Bo tròn kích thước lớn hơn (-2) */
+.rounded-t-2 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-2 {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-l-2 {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-2 {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-tl-2 {
+    border-top-left-radius: 0.5rem;
+}
+
+.rounded-tr-2 {
+    border-top-right-radius: 0.5rem;
+}
+
+.rounded-bl-2 {
+    border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-br-2 {
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Thêm các biến thể khác (-3, -4) nếu cần */
+.rounded-t-3 {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.rounded-b-3 {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-tl-3 {
+    border-top-left-radius: 0.75rem;
+}
+
+.rounded-tr-3 {
+    border-top-right-radius: 0.75rem;
+}
+
+.rounded-bl-3 {
+    border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-br-3 {
+    border-bottom-right-radius: 0.75rem;
+}
+
 
 /* Direction utilities */
 .flex-row {
